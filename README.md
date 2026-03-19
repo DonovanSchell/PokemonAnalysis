@@ -4,6 +4,8 @@
 
 An analysis of 898 Pokémon across 8 generations, exploring game balance, player experience, and design trends.
 
+A work-in-progress Tableau dashboard can be found here: [Pokémon Dashboard](https://public.tableau.com/app/profile/donovan.schell/viz/PokemonDashboard_17738990665290/TypeStats)
+
 ---
 
 ## Dataset
