@@ -8,7 +8,7 @@ Note that this dataset included variant types (e.g., Mega and regional types) al
 
 ---
 
-### Types Analysis Finding: Dragon, Steel, Ice, and Fighting are intrinsically the strongest types, even after controlling for their higher concentration of Sub Legendary, Legendary, and Mythical Pokémon
+### Types Analysis: Dragon, Steel, Ice, and Fighting are intrinsically the strongest types, even after controlling for their higher concentration of Sub Legendary, Legendary, and Mythical Pokémon
 
 First for background, Pokémon can be dual-typed, where they have a primary (Type 1) and secondary (Type 2) type, which largely function equally regarding the Same Type Attack Bonus (STAB) and damage calcualtion, combing to determine overall resistance and weakness.
 
