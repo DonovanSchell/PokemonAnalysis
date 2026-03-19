@@ -2,7 +2,7 @@
 
 **SQL Portfolio Project | PostgreSQL | 1,045 rows | Tableau dashboard**
 
-An analysis of 1,045 Pokémon exploring game balance, player experience, and design trends.
+An analysis of 898 Pokémon exploring game balance, player experience, and design trends.
 
 ---
 
