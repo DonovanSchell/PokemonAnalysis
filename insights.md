@@ -4,7 +4,7 @@
 
 This dataset leverages the [Complete Pokemon Dataset (Updated 16.04.21)](https://www.kaggle.com/datasets/mariotormo/complete-pokemon-dataset-updated-090420) availabe on Kaggle.com. It contains information on 898 Pokémon (1,208 when including varieties) through Generation 8. This dataset includes information spanning Pokémon types, base stats, physical attributes, breeding details, catch rate, and type defenses.
 
-Note that this dataset included variant types (e.g., Mega and regional types) in the name field, which I subsequently separated into name_details (original name to serve as match key), name_only (isolating just the name), and variant (accounting for Mega, regional, and other types).
+Note that this dataset included variant types (e.g., Mega and regional types) along with names in the name field, which I subsequently separated into name_details (original name to serve as match key), name_only (isolating just the name), and variant (accounting for Mega, regional, and other types).
 
 ---
 
