@@ -28,8 +28,8 @@ Looking across Legendary+ statuses of each type, the strongest type Pokémon are
 
 | Group | Normal% | Legendary+% |
 |-------|----------|-------------|
-| Top Performers | 82% | 18% |
-| Bottom Performers | 96% | 4% |
+| Strongest Types | 82% | 18% |
+| Weakest Types | 96% | 4% |
 
 However, when removing the Legendary+ types, the strongest types still lead by +58 Total Points on average (439 top performer avg vs 381 bottom performer avg) compared to the all-up average of ~403. So, a type advantage is **real, just not a Legendary+ inflation effect.**
 
