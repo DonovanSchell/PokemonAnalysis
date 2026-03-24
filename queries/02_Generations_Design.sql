@@ -29,7 +29,7 @@ where pc.variant = 'Base'
 group by generation 
 order by generation 
 ;
---generation 7 has the highest amount of legendary+ Pokemon out of any generation
+--generation 7 had the highest amount of legendary+ Pokemon out of any generation
 
 
 --status percent by generation
@@ -45,7 +45,7 @@ where
 group by pc.generation
 order by pc.generation
 ;
---indeed, generation 7 has the highest porportion of legendary+ pokemon 
+--indeed, generation 7 had the highest porportion of legendary+ pokemon 
 
 
 --table readout of legendary+ base stats by generation
@@ -72,7 +72,7 @@ order by generation
 ;
 /*legendary+ may be driving 7 to have higher stats due to their significantly higher share that generation.
 however, that generation's legendary+ have some of lowest overall stats out of all other generations for legenary+.
-and this generations normal status pokemon in avg_attack, avg_defense, and avg_sp_defense*/
+and this generation's normal status pokemon exceeled in avg_attack, avg_defense, and avg_sp_defense*/
 
 
 --stats by gen 7 pokemon, see what is driving higher stats...
@@ -95,7 +95,7 @@ order by pc.sp_defense  desc
 ;
 /*Attack was highest with Crabominable (478 total), Dhelmise (517 total), Bewear (500 total)
 Defense highest with Taxopex (495), Golisopod (530), Turtonator (485)
-Sp Def highest withTaxopex (495), Araquanid (454), Pyukumuku (410)
+Sp Def highest with Taxopex (495), Araquanid (454), Pyukumuku (410)
  */
 
 
