@@ -35,4 +35,39 @@ However, when removing the Legendary+ types, the strongest types still lead by +
 
 **Takeaway: Even among ordinary (Base) Pokémon, Dragon/Steel/Ice/Fighting are intrinsincally stronger types, and Poison/Normal/Bug are weaker. The Legendary+ skew only amplifies this gap but doesn't create it.**
 
+**SQL Skills Demonstrated:** Aggregation, FILTER, CASE, CTEs, UNION ALL, subqueries, CROSS JOIN, conditional filtering with NULLIF
+
 *For an interactive view of this analysis, see the [Type Stats](https://public.tableau.com/app/profile/donovan.schell/viz/PokemonDashboard_17738990665290/TypeStats) tab of my  Pokémon Dashboard.*
+
+---
+
+### Generations Analysis: *Power creep is real, but nuanced.* Attack stats are the fastest growing, while speed has seen a slight decline
+
+Average total points have trended upward from Gen 1 (408) to a rolling average peak of 433 by Gen 8 — a 25 point increase over the franchise's history.
+
+| Base Stat Bucket |          Stats          |
+|------------------|-------------------------|
+|  Fastest Growing |    Attack, Sp Attack    |
+|  Slow Growing    | Defense, HP, Sp Defense |
+|    Declining     |          Speed          |
+
+Gen 4 and Gen 7 are the standout outliers, averaging 442 and 452 respectively — coming in above their rolling averages. Conversely, Gen 2, 3, and 8 underperformed relative to their rolling averages, suggesting Game Freak periodically pulls back before pushing stats higher again.
+
+| Generation | Avg Total Points | Rolling 3-Gen Avg | Diff from Rolling Avg |
+|---|-----|-----|---|
+| 1 | 408 | 408 | 0 |
+| 2 | 407 | 408 | -1 |
+| 3 | 402 | 406 | -4 |
+| 4 | 442 | 417 | +25 |
+| 5 | 420 | 421 | -1 |
+| 6 | 423 | 428 | -5 |
+| 7 | 452 | 432 | +20 |
+| 8 | 423 | 433 | -10 |
+
+Importantly, Gen 7's elevated average is not explained by Legendary+ inflation. While Gen 7 has the highest proportion of Legendary+ Pokémon of any generation, those Pokémon actually have some of the lowest Legendary+ stats across all generations. The higher averages are instead driven by genuinely stronger Normal status Pokémon such as Golisopod, Dhelmise, and Bewear.
+
+Dual-typing followed an inconsistent pattern — stable at ~49% through Gen 5, peaking at 63% in Gen 7, then dropping to 40% in Gen 8. This possibly suggests that there is no strong correlation between dual-type prevalence and stat inflation.
+
+**SQL Skill Demonstrated:** Aggregation, FILTER, CTEs, window functions (rolling average)
+
+*For an interactive view of this analysis, see the [Generations](https://public.tableau.com/app/profile/donovan.schell/viz/PokemonDashboard_17738990665290/Generations) tab of my  Pokémon Dashboard.*
