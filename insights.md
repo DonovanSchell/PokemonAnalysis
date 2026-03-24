@@ -45,7 +45,7 @@ However, when removing the Legendary+ types, the strongest types still lead by +
 
 Average total points have trended upward from Gen 1 (408) to a rolling average peak of 433 by Gen 8 — a 25 point increase over the franchise's history.
 
-| Base Stat Bucket |          Stats          |
+|    Stat Bucket   |       Base Stats        |
 |------------------|-------------------------|
 |  Fastest Growing |    Attack, Sp Attack    |
 |  Slow Growing    | Defense, HP, Sp Defense |
