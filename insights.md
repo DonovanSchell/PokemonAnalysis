@@ -66,6 +66,17 @@ Gen 4 and Gen 7 are the standout outliers, averaging 442 and 452 respectively �
 
 Importantly, Gen 7's elevated average is not explained by Legendary+ inflation. While Gen 7 has the highest proportion of Legendary+ Pokémon of any generation, those Pokémon actually have some of the lowest Legendary+ stats across all generations. The higher averages are instead driven by genuinely stronger Normal status Pokémon such as Golisopod, Dhelmise, and Bewear.
 
+|Generation | Normal % | Sub Legendary % | Legendary % | Mythical % |
+|-----------|----------|-----------------|-------------|------------|
+| 1 | 96.7 | 2.0 | 0.7 | 0.7 |
+| 2 | 94.0 | 3.0 | 2.0 | 1.0 |
+| 3 | 93.3 | 3.7 | 2.2 | 0.7 |
+| 4 | 88.5 | 5.8 | 1.9 | 3.8 |
+| 5 | 94.6 | 2.0 | 2.0 | 1.3 |
+| 6 | 93.9 | 0.0 | 3.0 | 3.0 |
+| 7 | 67.9 | 20.2 | 6.0 | 6.0 |
+| 8 | 90.2 | 6.1 | 2.4 | 1.2 |
+
 Dual-typing followed an inconsistent pattern — stable at ~49% through Gen 5, peaking at 63% in Gen 7, then dropping to 40% in Gen 8. This possibly suggests that there is no strong correlation between dual-type prevalence and stat inflation.
 
 **SQL Skill Demonstrated:** Aggregation, FILTER, CTEs, window functions (rolling average)
