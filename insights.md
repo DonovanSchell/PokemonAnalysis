@@ -41,7 +41,7 @@ However, when removing the Legendary+ types, the strongest types still lead by +
 
 ---
 
-### Generations Analysis: *Power creep is real, but nuanced.* Attack stats are the fastest growing, while speed has seen a slight decline
+### Generations Analysis: Power creep is real, *but nuanced.* Attack stats are the fastest growing, while speed has seen a slight decline
 
 Average total points have trended upward from Gen 1 (408) to a rolling average peak of 433 by Gen 8 — a 25 point increase over the franchise's history.
 
