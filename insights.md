@@ -110,15 +110,15 @@ Generation 7 ranks as the most difficult generation to catch Pokémon in on aver
 
 Perhaps most surprisingly, 19 "Normal" status Pokémon carry a catch rate of 30 — rivaling many Legendary+ Pokémon in difficulty. Nearly all have total base points above 500, including Togekiss, Blissey, and Electivire. This reflects Game Freak's design philosophy of making fully evolved, non-legendary powerhouses harder to obtain.
 
-**Top "Normal" status Pokémon by Total Points with 30 Catch Rate:**
+**Top "Normal" status Pokémon with 30 Catch Rate ranked by Total Points:**
 
-| Pokémon | Catch Rate | Total Points |
-|---------|------------|--------------|
-| Togekiss | 30 | 545 |
-| Blissey | 30 | 540 |
-| Electivire | 30 | 540 |
-| Magmortar | 30 | 540 |
-| Magnezone | 30 | 535 |
+| Rank | Pokémon | Catch Rate | Total Points |
+|------|---------|------------|--------------|
+| 1 | Togekiss | 30 | 545 |
+| 2 | Blissey | 30 | 540 |
+| 3 | Electivire | 30 | 540 |
+| 4 | Magmortar | 30 | 540 |
+| 5 | Magnezone | 30 | 535 |
 
 #### Dashboard Catch Rate Probability Calculations & Methodology
 
