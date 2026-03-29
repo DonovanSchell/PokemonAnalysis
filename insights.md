@@ -118,4 +118,26 @@ Perhaps most surprisingly, 19 "Normal" status Pokémon carry a catch rate of 30 
 
 **SQL Skills Demonstrated:** Aggregation, FILTER, subqueries, conditional filtering
 
+#### Dashboard Catch Rate Success Calculations
+
+**Calculations by Generation**
+- <ins>Generation I</ins>: a = MIN((HPmax × 255 × 4) / (HPcurrent × Ball), 255) / 255
+- <ins>Generation II</ins>: a = MIN(MAX(FLOOR((3 × HPmax - 2 × HPcurrent) × rate / (3 × HPmax)), 1), 255) / 255
+- <ins>Generation III-IV</ins>: a = MIN((3 × HPmax - 2 × HPcurrent) / (3 × HPmax) × rate × ball, 255) / 255
+- <ins>Generation V-VII</ins>: a = MIN(FLOOR((3 × HPmax - 2 × HPcurrent) / (3 × HPmax) × 4096 × rate × ball) / 4096, 255) / 255
+- <ins>Generation VIII</ins>: a = MIN(FLOOR((3 × HPmax - 2 × HPcurrent) / (3 × HPmax) × 4096 × rate × ball) / 4096 × MAX((30 - level) / 10, 1), 255) / 255
+
+**Calculation Methodology Callouts**
+
+- **General**
+  - Results are approximations based on simplified catch rate formulas
+  - Status conditions (Sleep, Freeze, Paralysis, etc.) are not factored in, applying these in-game will increase catch probability
+  - Apricorn balls and special balls (Dusk Ball, Timer Ball, etc.) are not included, only Poké, Great, and Ultra Ball
+
+- **Generation Specific**
+  - Gen I - Random number thresholds and shake mechanics are simplified into a single probability
+  - Gen II - Apricorn ball effects are not applied, and due to various in-game glitches, many of them did not work as intended regardless
+  - Gen V-VII - These generations use identical formulas in this calculator as their core mechanics are the same. darkGrass and Capture Power bonuses are excluded
+  - Gen VIII - Level only affects catch probability for Pokémon level 1-19. Level 20+ applies no bonus. Difficulty badge factor and Max Raid Battle mechanics are excluded
+
 *For an interactive catch success rate calcutor based on this analysis, see the [Catch Rate Calculator](https://public.tableau.com/app/profile/donovan.schell/viz/PokemonDashboard_17738990665290/CatchRateCalculator) tab of my  Pokémon Dashboard.*
