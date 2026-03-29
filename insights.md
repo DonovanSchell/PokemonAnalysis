@@ -120,8 +120,6 @@ Perhaps most surprisingly, 19 "Normal" status Pokémon carry a catch rate of 30 
 | Magmortar | 30 | 540 |
 | Magnezone | 30 | 535 |
 
-**SQL Skills Demonstrated:** Aggregation, FILTER, subqueries, conditional filtering
-
 #### Dashboard Catch Rate Success Calculations
 
 **Calculations by Generation**
@@ -143,5 +141,7 @@ Perhaps most surprisingly, 19 "Normal" status Pokémon carry a catch rate of 30 
   - Gen II - Apricorn ball effects are not applied, and due to various in-game glitches, many of them did not work as intended regardless
   - Gen V-VII - These generations use identical formulas in this calculator as their core mechanics are the same. darkGrass and Capture Power bonuses are excluded
   - Gen VIII - Level only affects catch probability for Pokémon level 1-19. Level 20+ applies no bonus. Difficulty badge factor and Max Raid Battle mechanics are excluded
+
+**SQL Skills Demonstrated:** Aggregation, FILTER, subqueries, conditional filtering
 
 *For an interactive catch success rate calcutor based on this analysis, see the [Catch Rate Calculator](https://public.tableau.com/app/profile/donovan.schell/viz/PokemonDashboard_17738990665290/CatchRateCalculator) tab of my  Pokémon Dashboard.*
