@@ -142,7 +142,7 @@ Perhaps most surprisingly, 19 "Normal" status Pokémon carry a catch rate of 30 
   - Gen V-VII - These generations use identical formulas in this calculator as their core mechanics are the same. darkGrass and Capture Power bonuses are excluded
   - Gen VIII - Level only affects catch probability for Pokémon level 1-19. Level 20+ applies no bonus. Difficulty badge factor and Max Raid Battle mechanics are excluded
 
-*Catch rate success calculations based on catch rate formulas found on [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Catch_rate)*
+*Catch rate success calculations based on formulas found on [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Catch_rate)*
 
 **SQL Skills Demonstrated:** Aggregation, FILTER, subqueries, conditional filtering
 
