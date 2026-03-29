@@ -82,3 +82,40 @@ Dual-typing followed an inconsistent pattern — stable at ~49% through Gen 5, p
 **SQL Skill Demonstrated:** Aggregation, FILTER, CTEs, window functions (rolling average)
 
 *For an interactive view of this analysis, see the [Generations](https://public.tableau.com/app/profile/donovan.schell/viz/PokemonDashboard_17738990665290/Generations) tab of my  Pokémon Dashboard.*
+
+---
+
+### Catch Rate Analysis: Mythical and Sub Legendary Pokémon are the hardest to catch, while certain "Normal" status Pokémon defy expectations with surprisingly high catch difficulty
+Catch rate difficulty follows a clear hierarchy across status types — Mythical Pokémon are the hardest to catch on average, followed by Sub Legendary, Legendary, and Normal status Pokémon.
+
+| Status | Count | Avg Catch Rate |
+|--------|-------|----------------|
+| Mythical | 17 | 9.53 |
+| Sub Legendary | 42 | 13.29 |
+| Legendary | 20 | 42.90 |
+| Normal | 791 | 107.63 |
+
+Among Legendary+ Pokémon, 55-82% follow the expected high-difficulty catch rate of 3 (note that the lower the catch rate, the higher the catch difficulty), but notable exceptions exist. Eternatus (Gen 8) and Necrozma (Gen 7) both have a catch rate of 255 — essentially guaranteed catches — for lore-driven reasons tied to their respective storylines. Several Legendary and Sub Legendary Pokémon including Xerneas, Rayquaza, and the Ultra Beasts carry a catch rate of 45, reflecting moderate difficulty relative to their status.
+
+| Catch Rate | Sub Legendary | Mythical | Legendary | Normal |
+|------------|---------------|----------|-----------|--------|
+| 255 | 0% | 0% | 10% | 10% |
+| 45 | 21% | 12% | 35% | 34% |
+| 30 | 5% | 6% | 0% | 2% |
+| 3 | 74% | 82% | 55% | 0% |
+
+Generation 7 ranks as the most difficult generation to catch Pokémon in on average (avg catch rate: 79), while Generation 3 is the most accessible (avg catch rate: 114). Gen 7's difficulty is partly explained by its high concentration of Ultra Beasts and Legendary Pokémon.
+
+Perhaps most surprisingly, 19 "Normal" status Pokémon carry a catch rate of 30 — rivaling many Legendary+ Pokémon in difficulty. Nearly all have total base points above 500, including Togekiss, Blissey, and Electivire. This reflects Game Freak's design philosophy of making fully evolved, non-legendary powerhouses harder to obtain.
+
+| Pokémon | Catch Rate | Total Points |
+|---------|------------|--------------|
+| Togekiss | 30 | 545 |
+| Blissey | 30 | 540 |
+| Electivire | 30 | 540 |
+| Magmortar | 30 | 540 |
+| Magnezone | 30 | 535 |
+
+**SQL Skills Demonstrated:** Aggregation, FILTER, subqueries, conditional filtering
+
+*For an interactive catch success rate calcutor based on this analysis, see the [Catch Rate Calculator](https://public.tableau.com/app/profile/donovan.schell/viz/PokemonDashboard_17738990665290/CatchRateCalculator)) tab of my  Pokémon Dashboard.*
