@@ -23,7 +23,7 @@ group by generation
 order by
 	avg_catch_rate
 ;
---Generation difficulty was 79 (with 84 Pokemons), 4 (104), 2 (100), 8 (82), 6 (66), 1 (151), 5 (149), 3 (134) (note: lower rate number = higher difficulty)
+--Generation difficulty was 79 (with 84 Pokemons), 4 (104), 2 (100), 8 (82), 6 (66), 1 (151), 5 (149), 3 (134) (note: lower base catch rate number = higher difficulty)
 
 
 --Count of Pokemon by status and avg catch rate
@@ -44,7 +44,7 @@ order by
 	generation,
 	avg_catch_rate
 ;
-/*nearly every gen had sub legendary and then legendary outpace other status types for catch difficultly, except:
+/*nearly every gen had sub legendary and then legendary outpace other status types for catch difficultly:
  	* 1: sub & leg (both 3), myt, nor
  	* 2: sub & leg (both 3), myt, nor
  	* 3: sub & myt (both 3), leg, nor
@@ -69,7 +69,7 @@ select
 from pokemon_combined pc 
 where pc.variant = 'Base' and pc.status = 'Legendary' and pc.generation = 8
 ;
-/* Low-difficult catch rate is Eternatus, which has a 100% guaranteed catch rate. The online Pokemon community notes that:
+/* Low-difficulty catch rate is Eternatus, which has a 100% guaranteed catch rate. The online Pokemon community notes that:
 	* "He’s necessary for the game to progress so he’s basically an instant catch. RIP to anyone who uses a master ball on him"
  	* source: https://www.reddit.com/r/PokemonSwordAndShield/comments/t93n5a/did_you_know_that_eternatus_has_the_highest_catch/
  *Otherwise, the generation's only other legendary is Calyrex, which has the expected high-difficulty catch rate of 3 (aligned with other legendary( 
@@ -130,7 +130,7 @@ order by
 	pc.total_points desc
 ;
 /*19 "Normal" status Pokemon are difficult-catch rate
-	 * Nearly all a >500 total base points, with only 4 in the 400s (Absol, Chansey, Chatot, Murkrow)
+	 * Nearly all a >500 total stats points, with only 4 in the 400s (Absol, Chansey, Chatot, Murkrow)
 	 	* why hard to catch: "low base capture rates, high flee rates, and their status as single-stage or non-evolving Pokémon that are treated as fully evolved"
  */
 
