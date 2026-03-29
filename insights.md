@@ -88,7 +88,7 @@ Dual-typing followed an inconsistent pattern — stable at ~49% through Gen 5, p
 ### Catch Rate Analysis: Mythical and Sub Legendary Pokémon are the hardest to catch, while certain "Normal" status Pokémon defy expectations with surprisingly high catch difficulty
 Base catch rate difficulty follows a clear hierarchy across status types — Mythical Pokémon are the hardest to catch on average, followed by Sub Legendary, Legendary, and Normal status Pokémon.
 
-*Note: The lower the catch rate, the higher the catch difficulty*
+*Note: The lower the base catch rate, the higher the catch difficulty*
 
 | Status | Count | Avg Base Catch Rate |
 |--------|-------|----------------|
