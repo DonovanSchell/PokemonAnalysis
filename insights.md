@@ -112,7 +112,7 @@ Perhaps most surprisingly, 19 "Normal" status Pokémon carry a catch rate of 30 
 
 **Top "Normal" status Pokémon with 30 Catch Rate ranked by Total Points:**
 
-| Rank | Pokémon | Catch Rate | Total Points |
+| Rank | Pokémon | Base Catch Rate | Total Points |
 |------|---------|------------|--------------|
 | 1 | Togekiss | 30 | 545 |
 | 2 | Blissey | 30 | 540 |
