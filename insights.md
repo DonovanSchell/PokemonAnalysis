@@ -118,4 +118,4 @@ Perhaps most surprisingly, 19 "Normal" status Pokémon carry a catch rate of 30 
 
 **SQL Skills Demonstrated:** Aggregation, FILTER, subqueries, conditional filtering
 
-*For an interactive catch success rate calcutor based on this analysis, see the [Catch Rate Calculator](https://public.tableau.com/app/profile/donovan.schell/viz/PokemonDashboard_17738990665290/CatchRateCalculator)) tab of my  Pokémon Dashboard.*
+*For an interactive catch success rate calcutor based on this analysis, see the [Catch Rate Calculator](https://public.tableau.com/app/profile/donovan.schell/viz/PokemonDashboard_17738990665290/CatchRateCalculator) tab of my  Pokémon Dashboard.*
