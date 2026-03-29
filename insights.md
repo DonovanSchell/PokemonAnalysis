@@ -120,7 +120,7 @@ Perhaps most surprisingly, 19 "Normal" status Pokémon carry a catch rate of 30 
 | Magmortar | 30 | 540 |
 | Magnezone | 30 | 535 |
 
-#### Dashboard Catch Rate Success Calculations
+#### Dashboard Catch Rate Success Calculations & Methodology
 
 **Calculations by Generation**
 - <ins>Generation I</ins>: a = MIN((HPmax × 255 × 4) / (HPcurrent × Ball), 255) / 255
