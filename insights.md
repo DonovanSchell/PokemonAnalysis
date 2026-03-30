@@ -97,7 +97,7 @@ Base catch rate difficulty follows a clear hierarchy across status types — Myt
 | Legendary | 20 | 43 |
 | Normal | 791 | 108 |
 
-Among Legendary+ Pokémon, 55-82% follow the expected high-difficulty catch rate of 3, but notable exceptions exist. Eternatus (Gen 8) and Necrozma (Gen 7) both have a catch rate of 255 — essentially guaranteed catches — for lore-driven reasons tied to their respective storylines. Several Legendary and Sub Legendary Pokémon including Xerneas, Rayquaza, and the Ultra Beasts carry a catch rate of 45, reflecting moderate difficulty relative to their status.
+Among Legendary+ Pokémon, 71% follow the expected high-difficulty base catch rate of 3, but notable exceptions exist. Eternatus (Gen 8) and Necrozma (Gen 7) both have a catch rate of 255 — essentially guaranteed catches — for lore-driven reasons tied to their respective storylines. Several Legendary and Sub Legendary Pokémon including Xerneas, Rayquaza, and the Ultra Beasts carry a catch rate of 45, reflecting moderate difficulty relative to their status.
 
 | Catch Rate | Sub Legendary | Mythical | Legendary | Normal |
 |------------|---------------|----------|-----------|--------|
