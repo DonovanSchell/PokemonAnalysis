@@ -6,6 +6,8 @@ This dataset leverages the [Complete Pokemon Dataset (Updated 16.04.21)](https:/
 
 Note that this dataset included variant types (e.g., Mega and regional types) along with names in the name field, which I subsequently separated into name_details (original name to serve as match key), name_only (isolating just the name), and variant (accounting for Mega, regional, and other types).
 
+[Pokédex For All 1025 Pokémon (+ text descriptions)](https://www.kaggle.com/datasets/rzgiza/pokdex-for-all-1025-pokemon-w-text-description) is also sourced for its Pokédex descriptions.
+
 ---
 
 ### Types Analysis: Dragon, Steel, Ice, and Fighting are intrinsically the strongest types, even after controlling for their higher concentration of Sub Legendary, Legendary, and Mythical Pokémon
