@@ -42,7 +42,9 @@ The raw dataset was a single flat table requiring normalization and cleaning bef
 | pokemon_defense | Type effectiveness multipliers |
 | pokemon_description | info |
 
-**3. Data Integration:** The six normalized tables were rejoined alongside an external Pokédex description table via LEFT JOINs on name_details and pokedex_number to produce the final pokemon_combined analytical table used throughout this project.
+**3. Data Integration:** The six normalized tables were rejoined alongside an external Pokédex description table in two ways — first as a CREATE TABLE statement producing the persistent pokemon_combined analytical table, and then rebuilt as a fully CTE-based query for practice with modular SQL patterns. Both approaches join on name_details and pokedex_number across all seven sources.
+
+**SQL Skills Demonstrated:** String manipulation, pattern matching with LIKE, SUBSTRING/SUBSTR, CASE, normalization, JOIN, CTEs
 
 ---
 
