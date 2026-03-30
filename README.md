@@ -8,7 +8,7 @@ A work-in-progress Tableau dashboard can be found here: [Pokémon Dashboard](htt
 
 ---
 
-## Datasets
+## Dataset
 
 ### Source 1: [Complete Pokemon Dataset (Updated 16.04.21) - Kaggle](https://www.kaggle.com/datasets/mariotormo/complete-pokemon-dataset-updated-090420)
 
