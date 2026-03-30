@@ -42,8 +42,7 @@ The raw dataset was a single flat table requiring normalization and cleaning bef
 | pokemon_defense | Type effectiveness multipliers |
 | pokemon_description | info |
 
-**3. Data Integration**
-The six normalized tables were rejoined alongside an external Pokédex description table via LEFT JOINs on name_details and pokedex_number to produce the final pokemon_combined analytical table used throughout this project.
+**3. Data Integration:** The six normalized tables were rejoined alongside an external Pokédex description table via LEFT JOINs on name_details and pokedex_number to produce the final pokemon_combined analytical table used throughout this project.
 
 ---
 
