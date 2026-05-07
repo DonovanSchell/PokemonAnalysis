@@ -83,7 +83,7 @@ WHERE name_only = 'Own' AND variant = 'Tempo';
 |----------|-----------|-------|
 | `Gourgeis` | `Gourgeist` | Missing 't' in source data |
 | `Pumpkabo` | `Pumpkaboo` | Missing 'o' in source data |
-| `Own` | `Rockruff` | Tempo Rockruff misnamed in source data |
+| `Own` | `Rockruff` | Source data had Own Tempo Rockruff — "Own" was erroneously prepended to the entry in the source dataset |
 
 ---
 
