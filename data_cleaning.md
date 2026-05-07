@@ -8,7 +8,7 @@ The source dataset required several cleaning and quality steps before analysis c
 ## Source Data
 **Primary Source:** [Complete Pokemon Dataset (Updated 16.04.21) - Kaggle](https://www.kaggle.com/datasets/mariotormo/complete-pokemon-dataset-updated-090420)
 
-The raw dataset was a single flat table (`completepokedexdataset`) with 1,045 rows and 155 columns.
+The raw dataset was a single flat table (`completepokedexdataset`) with 1,045 rows and 55 columns.
 
 ---
 
