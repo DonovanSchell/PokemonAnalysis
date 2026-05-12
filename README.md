@@ -16,8 +16,6 @@ A work-in-progress Tableau dashboard can be found here: [Pokémon Dashboard](htt
 
 **Key fields:** Name, Variant, Generation, Status, Type_1, Type_2, Total_Points, HP, Attack, Defense, Sp_Attack, Sp_Defense, Speed
 
-_For detailed data cleaning notes and methodology, see [data_cleaning.md](https://github.com/DonovanSchell/PokemonAnalysis/blob/main/data_cleaning.md)._
-
 ### Source 2: [Pokédex For All 1025 Pokémon (+ text descriptions) - Kaggle](https://www.kaggle.com/datasets/rzgiza/pokdex-for-all-1025-pokemon-w-text-description)
 
 **Size:** 1,025 rows | 13 columns | 1,025 Pokémon
@@ -30,7 +28,9 @@ _For detailed data cleaning notes and methodology, see [data_cleaning.md](https:
 
 The raw dataset was a single flat table requiring normalization and cleaning before analysis. The second source was included to add Pokédex descriptions to the dataset.
 
-**1. Data Cleaning:** Pokémon names contained embedded variant information (e.g. "Mega Charizard X", "Galarian Zen Mode Darmanitan"). A 70+ condition CASE statement was written using pattern matching to extract two clean fields: name_only (base Pokémon name) and variant (e.g. Mega, Alolan, Galarian, Base). See here for more on [data cleaning](https://github.com/DonovanSchell/PokemonAnalysis/blob/main/data_cleaning.md).
+**1. Data Cleaning:** Pokémon names contained embedded variant information (e.g. "Mega Charizard X", "Galarian Zen Mode Darmanitan"). A 70+ condition CASE statement was written using pattern matching to extract two clean fields: name_only (base Pokémon name) and variant (e.g. Mega, Alolan, Galarian, Base).
+
+_For a more detailed description of cleaning notes and methodology, see [data_cleaning.md](https://github.com/DonovanSchell/PokemonAnalysis/blob/main/data_cleaning.md)._
 
 **2. Data Modeling:** The flat table was normalized into six domain-specific tables, along with joining to the second data source for the Pokédex description text:
 
