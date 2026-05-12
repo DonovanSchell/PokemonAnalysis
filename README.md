@@ -30,7 +30,7 @@ _For detailed data cleaning notes and methodology, see [data_cleaning.md](https:
 
 The raw dataset was a single flat table requiring normalization and cleaning before analysis. The second source was included to add Pokédex descriptions to the dataset.
 
-**1. Data Cleaning:** Pokémon names contained embedded variant information (e.g. "Mega Charizard X", "Galarian Zen Mode Darmanitan"). A 70+ condition CASE statement was written using pattern matching to extract two clean fields: name_only (base Pokémon name) and variant (e.g. Mega, Alolan, Galarian, Base).
+**1. Data Cleaning:** Pokémon names contained embedded variant information (e.g. "Mega Charizard X", "Galarian Zen Mode Darmanitan"). A 70+ condition CASE statement was written using pattern matching to extract two clean fields: name_only (base Pokémon name) and variant (e.g. Mega, Alolan, Galarian, Base). See here for more on [data cleaning](https://github.com/DonovanSchell/PokemonAnalysis/blob/main/data_cleaning.md).
 
 **2. Data Modeling:** The flat table was normalized into six domain-specific tables, along with joining to the second data source for the Pokédex description text:
 
