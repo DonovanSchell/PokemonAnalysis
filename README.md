@@ -22,7 +22,7 @@ _For detailed data cleaning notes and methodology, see [data_cleaning.md](https:
 
 **Size:** 1,025 rows | 13 columns | 1,025 Pokémon
 
-**Key fields:** Info
+**Key fields:** Info, Evo_Set
 
 ---
 
